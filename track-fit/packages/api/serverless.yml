@@ -105,6 +105,7 @@ provider:
 resources:
   - ${file(./src/baseblocks/cognito/cognito-resources.yml)}
   - ${file(./src/baseblocks/admin/admin-dynamodb.yml)}
+  - ${file(./src/rds.yml)}
 
 functions:
   - ${file(./src/baseblocks/admin/admin-functions.yml)}
